@@ -1,0 +1,527 @@
+CHARGE
+#Keyw Weight Atom (a5,1x,f6.2,1x,i4)
+H2S1_opt 0.02 1 -0.092
+H2S1_opt 0.02 2 0.046
+bilayer_0 0.01 1 -0.100
+ENDCHARGE
+GEOMETRY
+MoS6 0.02 1 7 2.35
+MoS6 0.02 1 6 2.35
+MoS6 0.02 1 5 2.35
+MoS6 0.02 1 4 2.35
+MoS6 0.02 1 3 2.35
+MoS6 0.02 1 2 2.35
+MoS6 2.50 4 1 5 53.4
+MoS6 2.50 6 1 7 53.4
+MoS6 2.50 2 1 3 53.4
+MoS6 2.50 2 1 4 103.5
+MoS6 2.50 4 1 6 103.8
+MoS6 2.50 4 1 6 104.0
+MoS6 2.50 2 3 1 4 58.0
+MoS6 2.50 2 3 1 5 102.6
+MoS4H2 0.02 1 2 2.122
+MoS4H2 0.02 1 4 2.128
+MoS4H2 0.02 1 3 2.343
+MoS4H2 0.02 1 5 2.343
+MoS4H2 0.02 5 7 1.352
+MoS4H2 0.02 3 6 1.352
+MoS4H2 2.50 2 1 3 106.1
+MoS4H2 2.50 2 1 4 112.20
+MoS4H2 2.50 3 1 5 112.20
+MoS4H2 2.50 1 5 7 96.7
+MoS3H2 0.02 1 2 2.124
+MoS3H2 0.02 1 3 2.311
+MoS3H2 0.02 1 4 2.312
+MoS3H2 0.02 3 5 1.353
+MoS3H2 0.02 4 6 1.353
+MoS3H2 2.50 3 1 4 120.8
+MoS3H2 2.50 2 1 3 118.5
+MoS3H2 2.50 6 4 1 98.8
+MoS4H4 0.02 1 2 2.34
+MoS4H4 0.02 1 3 2.34
+MoS4H4 0.02 2 6 1.356
+MoS4H4 0.02 3 8 1.356
+MoS4H4 2.50 2 1 5 116.0
+MoS4H4 2.50 1 3 8 98.5
+Mo2S6 0.02 1 3 2.352
+Mo2S6 0.02 1 5 2.352
+Mo2S6 0.02 1 4 2.133
+Mo2S6 0.02 1 2 2.130
+Mo2S6 1.00 1 6 3.045
+Mo2S6 1.00 3 5 3.456
+Mo2S6 2.50 1 3 6 80.6
+Mo2S6 2.50 2 1 3 111.2
+Mo2S6 2.50 3 1 4 111.5
+Mo2S6 2.50 3 1 5 94.6
+MoS4SB 0.05 1 2 2.465
+MoS4SB 0.05 1 4 2.465
+MoS4SB 0.05 1 3 2.13
+MoS4SB 0.02 2 3 2.015
+MoS4SB 2.50 3 1 5 115.2
+MoS4SB 2.50 2 1 3 48.5
+MoS4SB 2.50 1 2 3 66.0
+MoS4 0.02 1 2 2.34
+MoS4 0.02 1 3 2.34
+MoS4 2.50 4 1 5 53.5
+MoS2 0.01 1 2 2.106
+MoS2 2.50 1 2 3 115.9
+MoS3 0.02 1 2 2.143
+MoS3 2.50 2 1 3 108.3
+S2_opt 0.02 1 2 1.927
+HSSH_opt 0.02 1 2 2.10
+HSSH_opt 0.02 1 4 1.35
+HSSH_opt 0.02 2 3 1.35
+HSSH_opt 2.50 1 2 3 98.9
+H2S 0.02 1 2 1.35
+H2S 0.02 2 3 1.35
+H2S 2.50 1 2 3 92.3
+MoH4 0.01 1 2 1.7
+MoH4 0.01 1 3 1.7
+MoH4 0.01 1 4 1.7
+MoH4 0.01 1 5 1.7
+MoH4 2.50 4 1 5 109.5
+MoH4 2.50 2 1 3 109.5
+HSSH_opt 0.20 1 2 2.150
+HSSH_opt 0.02 1 4 1.330
+H2S_opt 0.02 1 2 1.347
+H2S_opt 2.00 2 1 3 92.780
+HSSSSH_opt 5.50 1 3 4 5 83.36
+#Keyw Weight At1 At2 At3 At4 #Lit (a5,1x,f6.2,1x,4i4,f10.4)
+ENDGEOMETRY
+CELL PARAMETERS
+#Keyw Weight Atom (a5,1x,f6.2,1x,i4)
+ENDCELL PARAMETERS
+ENERGY
+#Weigh op1 Key1 n1 op2 Key2 n2 op3 Key3 n3 op4 Key4 n4 op5Key5 n5 #Lit (f6.2,5(1x,a1,3x,a5,1x,i3),f10.4)
+# General Mo-S_bond_strength
+1.00 + MoS4H2/1 - MoS3H_SH/1 -69.5
+1.00 + MoS4H2/1 - MoS3H2_S/1 -101.2
+1.00 + MoS3H2/1 - MoS2H2_S/1 -95.84
+1.00 + MoS3H2/1 - MoS2H_SH/1 -68.3
+1.00 + MoS4H4/1 - MoS3H3_SH/1 -56.4
+1.00 + MoS3H3/1 - MoS3H2_SH/1 -68.45
+0.50 + Mo2S6/1 - MoS3/1 - MoS3/1 -82.45
+1.00 - MoS2/1 - S2_opt/1 + MoS4/1 -72.0
+1.00 - MoS2B/1 + MoS2/1 -55.5
+5.00 - MoS4/1 - S2_opt/1 + MoS6/1 -51.22
+5.00 - MoS4SB/1 - S2_opt/1 + MoS6/1 -18.5
+1.00 + S2_opt/1 - 2S/1 -105.8
+1.00 + HSSH_opt/1 - 2HS/1 -55.49
+1.00 + H2S/1 - 2HS/2 -92.7
+1.00 + MoS(SH)2H /1 - MoS2SHH /1 -85.18
+1.00 + MoH6/1 - MoH5/1 -63.50
+1.00 + MoH5/1 - MoH4/1 -49.85
+1.00 + MoH4/1 - MoH3/1 -61.96
+# General crystal data: Cohesive energy, heat of fomration, compression/elongation data; heat of formation from NIST
+1.00 + MoS2_hex_opt/2 -358.36
+50.00 + MoS2_hex_opt/2 - MoS2_2H/36 18.70
+1.00 + MoS2_hex_opt/2 - Mo_bcc/2 - a16_opt/64 -66.0
+1.00 + MoS2_hex_opt/2 - MoS2_hex_qm/2 -0.10
+# Restraint S-S_bond dissociation in HS-SH
+10.0 + HSSH_opt /1 - HSSHb1_70 /1 -51.17
+7.5 + HSSH_opt /1 - HSSHb1_80 /1 -24.43
+5.0 + HSSH_opt /1 - HSSHb1_90 /1 -9.54
+5.0 + HSSH_opt /1 - HSSHb2_00 /1 -2.32
+1.0 + HSSH_opt /1 - HSSHb2_05 /1 -0.68
+1.0 + HSSH_opt /1 - HSSHb2_10 /1 -0.03
+1.0 + HSSH_opt /1 - HSSHb2_20 /1 -1.01
+2.0 + HSSH_opt /1 - HSSHb2_30 /1 -4.09
+5.0 + HSSH_opt /1 - HSSHb2_40 /1 -8.60
+5.0 + HSSH_opt /1 - HSSHb2_50 /1 -13.89
+5.0 + HSSH_opt /1 - HSSHb2_60 /1 -19.64
+5.5 + HSSH_opt /1 - HSSHb2_70 /1 -25.50
+5.5 + HSSH_opt /1 - HSSHb2_80 /1 -31.32
+5.5 + HSSH_opt /1 - HSSHb3_10 /1 -44.05
+5.5 + HSSH_opt /1 - HSSHb3_40 /1 -50.38
+5.5 + HSSH_opt /1 - HSSHb3_80 /1 -54.35
+2.0 + HSSH_opt /1 - HSSHb4_20 /1 -54.99
+### Restraint S-S_bond dissociation in S-S
+5.0 + S2_opt /1 - S2_1_70 /1 -24.45
+2.5 + S2_opt /1 - S2_1_75 /1 -13.55
+2.0 + S2_opt /1 - S2_1_80 /1 -6.37
+1.0 + S2_opt /1 - S2_1_85 /1 -2.11
+1.0 + S2_opt /1 - S2_1_90 /1 -0.22
+1.0 + S2_opt /1 - S2_1_95 /1 -0.18
+1.0 + S2_opt /1 - S2_2_00 /1 -1.56
+2.0 + S2_opt /1 - S2_2_05 /1 -4.02
+7.0 + S2_opt /1 - S2_2_10 /1 -7.33
+7.5 + S2_opt /1 - S2_2_20 /1 -15.73
+7.5 + S2_opt /1 - S2_2_30 /1 -25.51
+7.5 + S2_opt /1 - S2_2_50 /1 -46.20
+5.0 + S2_opt /1 - S2_2_70 /1 -66.2
+5.0 + S2_opt /1 - S2_2_90 /1 -82.76
+5.0 + S2_opt /1 - S2_3_20 /1 -87.96
+# 1.0 + S2_opt /1 - S2_3_50 /1 -93.61
+# 1.0 + S2_opt /1 - S2_4_00 /1 -101.22
+### Restraint H-S_bond dissociation in H2S
+10.0 + H2S /1 - H2S_1_00 /1 -70.56
+5.0 + H2S /1 - H2S_1_10 /1 -29.12
+2.5 + H2S /1 - H2S_1_20 /1 -8.53
+1.0 + H2S /1 - H2S_1_30 /1 -0.77
+1.0 + H2S /1 - H2S_1_40 /1 -0.74
+1.0 + H2S /1 - H2S_1_50 /1 -5.54
+2.5 + H2S /1 - H2S_1_60 /1 -12.60
+2.5 + H2S /1 - H2S_1_70 /1 -21.22
+5.0 + H2S /1 - H2S_1_90 /1 -39.73
+5.0 + H2S /1 - H2S_2_10 /1 -57.42
+5.0 + H2S /1 - H2S_2_20 /1 -65.52
+5.0 + H2S /1 - H2S_2_40 /1 -79.91
+5.0 + H2S /1 - H2S_2_50 /1 -86.30
+5.0 + H2S /1 - H2S_2_60 /1 -92.13
+2.5 + H2S /1 - H2S_2_70 /1 -92.42
+1.0 + H2S /1 - H2S_3_00 /1 -92.43
+1.0 + H2S /1 - H2S_3_50 /1 -92.56
+### Restraint H-S-H angle dissociation in H2S
+5.0 + H2S /1 - H2S_65 /1 -12.88
+2.5 + H2S /1 - H2S_70 /1 -8.65
+1.0 + H2S /1 - H2S_75 /1 -5.22
+1.0 + H2S /1 - H2S_80 /1 -2.66
+1.0 + H2S /1 - H2S_85 /1 -0.95
+1.0 + H2S /1 - H2S_90 /1 -0.11
+1.0 + H2S /1 - H2S_95 /1 -0.10
+1.0 + H2S /1 - H2S_100 /1 -0.92
+1.0 + H2S /1 - H2S_105 /1 -2.55
+2.5 + H2S /1 - H2S_110 /1 -4.95
+2.5 + H2S /1 - H2S_115 /1 -8.08
+5.0 + H2S /1 - H2S_120 /1 -11.91
+5.0 + H2S /1 - H2S_125 /1 -16.38
+5.0 + H2S /1 - H2S_130 /1 -21.43
+5.0 + H2S /1 - H2S_135 /1 -26.98
+5.0 + H2S /1 - H2S_140 /1 -32.94
+### Restraint Mo-H bond dissociation in MoH4
+1.0 + MoH4/1 - MoH4b_1_50/1 -7.74
+1.0 + MoH4/1 - MoH4b_1_60/1 -1.62
+1.0 + MoH4/1 - MoH4b_1_70/1 -0.001
+1.0 + MoH4/1 - MoH4b_1_80/1 -1.40
+1.0 + MoH4/1 - MoH4b_1_90/1 -4.83
+1.0 + MoH4/1 - MoH4b_2_00/1 -9.48
+1.0 + MoH4/1 - MoH4b_2_10/1 -14.70
+2.5 + MoH4/1 - MoH4b_2_20/1 -20.35
+2.5 + MoH4/1 - MoH4b_2_30/1 -26.02
+2.5 + MoH4/1 - MoH4b_2_50/1 -36.21
+5.0 + MoH4/1 - MoH4b_2_70/1 -44.25
+5.0 + MoH4/1 - MoH4b_2_90/1 -50.14
+5.0 + MoH4/1 - MoH4b_3_30/1 -57.05
+1.0 + MoH4/1 - MoH4b_3_50/1 -58.87
+1.0 + MoH4/1 - MoH4b_4_00/1 -60.97
+# Restraint Mo-SH_bond_dissociation
+10.00 + MoS4H2/1 - MoS4H2_sb_1_80/1 -101.6
+10.00 + MoS4H2/1 - MoS4H2_sb_1_90/1 -57.8
+5.00 + MoS4H2/1 - MoS4H2_sb_2_00/1 -29.72
+2.50 + MoS4H2/1 - MoS4H2_sb_2_10/1 -12.72
+1.00 + MoS4H2/1 - MoS4H2_sb_2_20/1 -3.88
+1.00 + MoS4H2/1 - MoS4H2_sb_2_25/1 -1.56
+1.00 + MoS4H2/1 - MoS4H2_sb_2_30/1 -0.33
+1.00 + MoS4H2/1 - MoS4H2_sb_2_35/1 -0.01
+1.00 + MoS4H2/1 - MoS4H2_sb_2_40/1 -0.43
+1.00 + MoS4H2/1 - MoS4H2_sb_2_45/1 -1.46
+1.00 + MoS4H2/1 - MoS4H2_sb_2_50/1 -2.97
+1.00 + MoS4H2/1 - MoS4H2_sb_2_55/1 -4.85
+2.50 + MoS4H2/1 - MoS4H2_sb_2_60/1 -7.03
+2.50 + MoS4H2/1 - MoS4H2_sb_2_70/1 -11.98
+2.50 + MoS4H2/1 - MoS4H2_sb_2_80/1 -17.54
+2.50 + MoS4H2/1 - MoS4H2_sb_2_90/1 -23.14
+2.50 + MoS4H2/1 - MoS4H2_sb_3_00/1 -28.79
+2.50 + MoS4H2/1 - MoS4H2_sb_3_10/1 -34.31
+5.00 + MoS4H2/1 - MoS4H2_sb_3_30/1 -44.69
+5.00 + MoS4H2/1 - MoS4H2_sb_3_40/1 -49.43
+5.00 + MoS4H2/1 - MoS4H2_sb_3_50/1 -53.37
+5.00 + MoS4H2/1 - MoS4H2_sb_3_60/1 -56.57
+5.00 + MoS4H2/1 - MoS4H2_sb_3_70/1 -59.17
+5.00 + MoS4H2/1 - MoS4H2_sb_3_90/1 -63.02
+5.00 + MoS4H2/1 - MoS4H2_sb_4_10/1 -65.61
+1.00 + MoS4H2/1 - MoS4H2_sb_4_30/1 -67.09
+# Restraint Mo=S_bond_dissociation
+10.00 + MoS4H2/1 - MoS4H2_db_1_70/1 -106.9
+10.00 + MoS4H2/1 - MoS4H2_db_1_80/1 -53.12
+5.00 + MoS4H2/1 - MoS4H2_db_1_90/1 -21.71
+5.00 + MoS4H2/1 - MoS4H2_db_1_95/1 -12.09
+2.50 + MoS4H2/1 - MoS4H2_db_2_00/1 -5.62
+1.00 + MoS4H2/1 - MoS4H2_db_2_05/1 -1.79
+1.00 + MoS4H2/1 - MoS4H2_db_2_10/1 -0.13
+1.00 + MoS4H2/1 - MoS4H2_db_2_15/1 -0.24
+1.00 + MoS4H2/1 - MoS4H2_db_2_20/1 -1.73
+2.50 + MoS4H2/1 - MoS4H2_db_2_25/1 -4.29
+2.50 + MoS4H2/1 - MoS4H2_db_2_30/1 -7.70
+2.50 + MoS4H2/1 - MoS4H2_db_2_40/1 -16.34
+2.50 + MoS4H2/1 - MoS4H2_db_2_50/1 -26.5
+5.00 + MoS4H2/1 - MoS4H2_db_2_60/1 -37.28
+5.00 + MoS4H2/1 - MoS4H2_db_2_70/1 -48.09
+5.00 + MoS4H2/1 - MoS4H2_db_2_75/1 -50.33
+5.00 + MoS4H2/1 - MoS4H2_db_2_80/1 -52.51
+5.00 + MoS4H2/1 - MoS4H2_db_2_90/1 -57.10
+5.00 + MoS4H2/1 - MoS4H2_db_3_00/1 -60.48
+5.00 + MoS4H2/1 - MoS4H2_db_3_10/1 -63.63
+5.00 + MoS4H2/1 - MoS4H2_db_3_30/1 -69.27
+5.00 + MoS4H2/1 - MoS4H2_db_3_60/1 -75.97
+5.00 + MoS4H2/1 - MoS4H2_db_3_90/1 -82.15
+5.00 + MoS4H2/1 - MoS4H2_db_4_50/1 -88.61
+1.00 + MoS4H2/1 - MoS4H2_db_4_75/1 -93.55
+# Restraint S-Mo-S_Angle_dissociation
+5.00 + MoS4H2/1 - MoS4H2_sa_75/1 -21.50
+2.50 + MoS4H2/1 - MoS4H2_sa_80/1 -15.78
+2.50 + MoS4H2/1 - MoS4H2_sa_85/1 -11.45
+1.00 + MoS4H2/1 - MoS4H2_sa_90/1 -8.15
+1.00 + MoS4H2/1 - MoS4H2_sa_95/1 -5.04
+1.00 + MoS4H2/1 - MoS4H2_sa_100/1 -2.40
+1.00 + MoS4H2/1 - MoS4H2_sa_105/1 -0.79
+1.00 + MoS4H2/1 - MoS4H2_sa_110/1 -0.078
+1.00 + MoS4H2/1 - MoS4H2_sa_115/1 -0.10
+1.00 + MoS4H2/1 - MoS4H2_sa_120/1 -0.75
+1.00 + MoS4H2/1 - MoS4H2_sa_125/1 -1.97
+1.00 + MoS4H2/1 - MoS4H2_sa_130/1 -3.74
+1.00 + MoS4H2/1 - MoS4H2_sa_135/1 -6.05
+1.00 + MoS4H2/1 - MoS4H2_sa_140/1 -8.88
+1.00 + MoS4H2/1 - MoS4H2_sa_150/1 -16.10
+2.50 + MoS4H2/1 - MoS4H2_sa_160/1 -25.36
+# Restraint S=Mo=S_Angle_dissociation
+10.00 + MoS4H2/1 - MoS4H2_da_75/1 -47.50
+10.00 + MoS4H2/1 - MoS4H2_da_80/1 -33.66
+5.00 + MoS4H2/1 - MoS4H2_da_85/1 -22.56
+2.50 + MoS4H2/1 - MoS4H2_da_90/1 -14.02
+1.00 + MoS4H2/1 - MoS4H2_da_95/1 -7.91
+1.00 + MoS4H2/1 - MoS4H2_da_100/1 -3.71
+1.00 + MoS4H2/1 - MoS4H2_da_105/1 -1.20
+1.00 + MoS4H2/1 - MoS4H2_da_110/1 -0.10
+1.00 + MoS4H2/1 - MoS4H2_da_115/1 -0.16
+1.00 + MoS4H2/1 - MoS4H2_da_120/1 -1.20
+1.00 + MoS4H2/1 - MoS4H2_da_125/1 -3.04
+1.00 + MoS4H2/1 - MoS4H2_da_130/1 -5.59
+1.00 + MoS4H2/1 - MoS4H2_da_135/1 -8.73
+1.00 + MoS4H2/1 - MoS4H2_da_140/1 -12.41
+2.50 + MoS4H2/1 - MoS4H2_da_150/1 -20.99
+5.00 + MoS4H2/1 - MoS4H2_da_160/1 -30.52
+# Restraint S-Mo=S_Angle_dissociation
+5.00 + MoS4H2/1 - MoS4H2_sda_70/1 -27.50
+5.00 + MoS4H2/1 - MoS4H2_sda_75/1 -19.35
+5.00 + MoS4H2/1 - MoS4H2_sda_80/1 -12.84
+2.50 + MoS4H2/1 - MoS4H2_sda_85/1 -7.90
+1.50 + MoS4H2/1 - MoS4H2_sda_90/1 -4.36
+1.00 + MoS4H2/1 - MoS4H2_sda_95/1 -1.98
+1.00 + MoS4H2/1 - MoS4H2_sda_100/1 -0.58
+1.00 + MoS4H2/1 - MoS4H2_sda_105/1 -0.02
+1.00 + MoS4H2/1 - MoS4H2_sda_110/1 -0.19
+1.00 + MoS4H2/1 - MoS4H2_sda_115/1 -0.99
+1.00 + MoS4H2/1 - MoS4H2_sda_120/1 -2.38
+1.00 + MoS4H2/1 - MoS4H2_sda_125/1 -4.32
+1.00 + MoS4H2/1 - MoS4H2_sda_130/1 -6.76
+1.00 + MoS4H2/1 - MoS4H2_sda_135/1 -9.68
+1.00 + MoS4H2/1 - MoS4H2_sda_140/1 -13.10
+2.50 + MoS4H2/1 - MoS4H2_sda_145/1 -17.04
+5.00 + MoS4H2/1 - MoS4H2_sda_150/1 -21.38
+# Restraint Mo-S-H_Angle_dissociation
+5.00 + MoS4H2/1 - MoS4H2_ha_55.0/1 -15.45
+5.00 + MoS4H2/1 - MoS4H2_ha_60.0/1 -11.43
+2.50 + MoS4H2/1 - MoS4H2_ha_65.0/1 -8.36
+2.50 + MoS4H2/1 - MoS4H2_ha_70.0/1 -5.86
+1.00 + MoS4H2/1 - MoS4H2_ha_75.0/1 -3.87
+1.00 + MoS4H2/1 - MoS4H2_ha_80.0/1 -2.33
+1.00 + MoS4H2/1 - MoS4H2_ha_85.0/1 -1.16
+0.10 + MoS4H2/1 - MoS4H2_ha_90.0/1 -0.39
+0.10 + MoS4H2/1 - MoS4H2_ha_95.0/1 -0.03
+0.10 + MoS4H2/1 - MoS4H2_ha_100.0/1 -0.10
+0.10 + MoS4H2/1 - MoS4H2_ha_105.0/1 -0.59
+0.10 + MoS4H2/1 - MoS4H2_ha_110.0/1 -1.49
+0.10 + MoS4H2/1 - MoS4H2_ha_115.0/1 -2.80
+0.10 + MoS4H2/1 - MoS4H2_ha_120.0/1 -4.47
+# Restraint S-Mo-S_Angle_dissociation in MoS2
+5.00 + MoS2/1 - MoS2_70/1 -51.49
+5.00 + MoS2/1 - MoS2_75/1 -45.89
+5.00 + MoS2/1 - MoS2_80/1 -33.28
+2.50 + MoS2/1 - MoS2_85/1 -22.86
+2.50 + MoS2/1 - MoS2_90/1 -14.69
+2.50 + MoS2/1 - MoS2_95/1 -8.60
+1.00 + MoS2/1 - MoS2_100/1 -4.35
+1.00 + MoS2/1 - MoS2_105/1 -1.65
+1.00 + MoS2/1 - MoS2_110/1 -0.28
+1.00 + MoS2/1 - MoS2_114/1 -0.01
+1.00 + MoS2/1 - MoS2_120/1 -0.67
+1.00 + MoS2/1 - MoS2_125/1 -2.02
+2.50 + MoS2/1 - MoS2_130/1 -3.94
+5.00 + MoS2/1 - MoS2_135/1 -6.27
+5.00 + MoS2/1 - MoS2_140/1 -8.92
+# Restraint Mo-SH_bond_dissociation
+5.00 + MoS3H2/1 - MoS3H2_sb_2_00/1 -27.51
+5.00 + MoS3H2/1 - MoS3H2_sb_2_05/1 -18.78
+5.00 + MoS3H2/1 - MoS3H2_sb_2_10/1 -12.14
+1.00 + MoS3H2/1 - MoS3H2_sb_2_15/1 -7.27
+1.00 + MoS3H2/1 - MoS3H2_sb_2_20/1 -3.84
+1.00 + MoS3H2/1 - MoS3H2_sb_2_25/1 -1.60
+1.00 + MoS3H2/1 - MoS3H2_sb_2_30/1 -0.38
+1.00 + MoS3H2/1 - MoS3H2_sb_2_35/1 -0.001
+1.00 + MoS3H2/1 - MoS3H2_sb_2_40/1 -0.33
+1.00 + MoS3H2/1 - MoS3H2_sb_2_45/1 -1.23
+1.00 + MoS3H2/1 - MoS3H2_sb_2_50/1 -2.59
+1.00 + MoS3H2/1 - MoS3H2_sb_2_55/1 -4.31
+1.00 + MoS3H2/1 - MoS3H2_sb_2_60/1 -6.31
+2.50 + MoS3H2/1 - MoS3H2_sb_2_65/1 -8.51
+2.50 + MoS3H2/1 - MoS3H2_sb_2_70/1 -10.88
+2.50 + MoS3H2/1 - MoS3H2_sb_2_75/1 -13.38
+1.00 + MoS3H2/1 - MoS3H2_sb_2_85/1 -18.70
+1.00 + MoS3H2/1 - MoS3H2_sb_3_00/1 -26.65
+1.00 + MoS3H2/1 - MoS3H2_sb_3_20/1 -36.72
+# Restraint Mo=S_bond_dissociation
+5.00 + MoS3H2/1 - MoS3H2_db_1_90/1 -21.30
+1.00 + MoS3H2/1 - MoS3H2_db_2_00/1 -5.55
+1.00 + MoS3H2/1 - MoS3H2_db_2_05/1 -1.79
+1.00 + MoS3H2/1 - MoS3H2_db_2_10/1 -0.15
+1.00 + MoS3H2/1 - MoS3H2_db_2_15/1 -0.21
+1.00 + MoS3H2/1 - MoS3H2_db_2_20/1 -1.58
+1.00 + MoS3H2/1 - MoS3H2_db_2_25/1 -3.94
+5.00 + MoS3H2/1 - MoS3H2_db_2_30/1 -7.00
+5.00 + MoS3H2/1 - MoS3H2_db_2_35/1 -10.43
+5.00 + MoS3H2/1 - MoS3H2_db_2_40/1 -14.02
+5.00 + MoS3H2/1 - MoS3H2_db_2_50/1 -21.50
+5.00 + MoS3H2/1 - MoS3H2_db_2_60/1 -28.80
+5.00 + MoS3H2/1 - MoS3H2_db_2_85/1 -45.51
+5.00 + MoS3H2/1 - MoS3H2_db_3_00/1 -54.46
+# Volume MoS2_ab_EOS
+11.00 + MoS2_hex_opt/2 - MoS2_opt_ab_2_9/2 -44.65
+10.50 + MoS2_hex_opt/2 - MoS2_opt_ab_2_95/2 -29.83
+10.50 + MoS2_hex_opt/2 - MoS2_opt_ab_3_0/2 -18.36
+10.10 + MoS2_hex_opt/2 - MoS2_opt_ab_3_1/2 -4.19
+10.10 + MoS2_hex_opt/2 - MoS2_opt_ab_3_14/2 -1.42
+10.10 + MoS2_hex_opt/2 - MoS2_opt_ab_3_15/2 -0.98
+10.10 + MoS2_hex_opt/2 - MoS2_opt_ab_3_16/2 -0.60
+10.10 + MoS2_hex_opt/2 - MoS2_opt_ab_3_18/2 -0.13
+10.10 + MoS2_hex_opt/2 - MoS2_opt_ab_3_2/2 -0.01
+10.10 + MoS2_hex_opt/2 - MoS2_opt_ab_3_22/2 -0.20
+10.10 + MoS2_hex_opt/2 - MoS2_opt_ab_3_24/2 -0.72
+10.10 + MoS2_hex_opt/2 - MoS2_opt_ab_3_3/2 -4.05
+10.50 + MoS2_hex_opt/2 - MoS2_opt_ab_3_4/2 -14.86
+# Volume MoS2_c_EOS
+0.50 + MoS2_hex_opt/2 - MoS2_opt_c_110/2 -5.00
+0.50 + MoS2_hex_opt/2 - MoS2_opt_c_105/2 -1.50
+0.50 + MoS2_hex_opt/2 - MoS2_opt_c_95/2 -1.00
+0.50 + MoS2_hex_opt/2 - MoS2_opt_c_90/2 -4.00
+# General Surface_Coverage_Mo_Edge (per Mo atom)
+2.50 + MoS2_Mo_100%_1/16 - MoS2_Mo_0%/16 -61.69
+2.50 + MoS2_Mo_100%_2/16 - MoS2_Mo_0%/16 -61.66
+2.50 + MoS2_Mo_62.5%/16 - MoS2_Mo_0%/16 -43.08
+2.50 + MoS2_Mo_50%_1/16 - MoS2_Mo_0%/16 -36.44
+2.50 + MoS2_Mo_50%_2/16 - MoS2_Mo_0%/16 -34.98
+2.50 + MoS2_Mo_37.5%/16 - MoS2_Mo_0%/16 -29.24
+2.50 + MoS2_Mo_25%_1/16 - MoS2_Mo_0%/16 -20.03
+2.50 + MoS2_Mo_25%_2/16 - MoS2_Mo_0%/16 -21.56
+# General Surface_Coverage_S_Edge (per Mo atom)
+2.50 - MoS2_S_50%_1/16 + MoS2_S_100%/16 -26.81
+2.50 - MoS2_S_50%_2/16 + MoS2_S_100%/16 -27.66
+2.50 - MoS2_S_87.5%/16 + MoS2_S_100%/16 -6.11
+2.50 - MoS2_S_75%_1/16 + MoS2_S_100%/16 -13.19
+2.50 - MoS2_S_75%_2/16 + MoS2_S_100%/16 -16.92
+2.50 - MoS2_S_75%_3/16 + MoS2_S_100%/16 -13.40
+2.50 - MoS2_S_75%_4/16 + MoS2_S_100%/16 -12.35
+2.50 - MoS2_S_62.5%_1/16 + MoS2_S_100%/16 -20.06
+2.50 - MoS2_S_62.5%_2/16 + MoS2_S_100%/16 -19.87
+2.50 - MoS2_S_37.5%_1/16 + MoS2_S_100%/16 -36.33
+2.50 - MoS2_S_37.5%_2/16 + MoS2_S_100%/16 -36.05
+# Restraint S-S_bond dissociation in HS-SH
+25.0 + HSSH_opt /1 - HSSHb1_55 /1 -156.60
+5.0 + HSSH_opt /1 - HSSHb1_75 /1 -47.60
+2.5 + HSSH_opt /1 - HSSHb1_95 /1 -8.30
+2.5 + HSSH_opt /1 - HSSHb2_05 /1 -1.70
+2.5 + HSSH_opt /1 - HSSHb2_15 /1 -0.01
+2.5 + HSSH_opt /1 - HSSHb2_25 /1 -1.40
+2.5 + HSSH_opt /1 - HSSHb2_35 /1 -4.80
+2.5 + HSSH_opt /1 - HSSHb2_45 /1 -9.60
+5.0 + HSSH_opt /1 - HSSHb2_65 /1 -20.20
+5.0 + HSSH_opt /1 - HSSHb2_85 /1 -31.20
+10.0 + HSSH_opt /1 - HSSHb3_15 /1 -46.40
+10.0 + HSSH_opt /1 - HSSHb3_45 /1 -58.70
+20.0 + HSSH_opt /1 - HSSHb3_85 /1 -70.70
+0.25 + HSSH_opt /1 - HSSHb4_25 /1 -62.90
+# Restraint H-S-H_angle distortion in H-S-H
+5.0 + H2S_opt /1 - HSHa62 /1 -16.50
+2.5 + H2S_opt /1 - HSHa78 /1 -3.90
+2.0 + H2S_opt /1 - HSHa86 /1 -0.80
+1.5 + H2S_opt /1 - HSHa90 /1 -0.10
+1.5 + H2S_opt /1 - HSHa92 /1 -0.01
+1.5 + H2S_opt /1 - HSHa93 /1 -0.001
+1.5 + H2S_opt /1 - HSHa94 /1 -0.02
+1.5 + H2S_opt /1 - HSHa96 /1 -0.20
+2.0 + H2S_opt /1 - HSHa100 /1 -0.90
+2.5 + H2S_opt /1 - HSHa108 /1 -3.80
+5.0 + H2S_opt /1 - HSHa124 /1 -15.40
+# Restraint H-S-S-H_torsion barrier in H-S-S-H
+50.5 + HSSHt90 /1 - HSSHt180 /1 -5.34
+50.5 + HSSHt90 /1 - HSSHt150 /1 -4.20
+50.5 + HSSHt90 /1 - HSSHt120 /1 -1.52
+50.5 + HSSHt90 /1 - HSSHt60 /1 -1.97
+50.5 + HSSHt90 /1 - HSSHt30 /1 -5.94
+50.5 + HSSHt90 /1 - HSSHt0 /1 -7.98
+# General sulfur_compounds  hydrogenation
+25.0 + S4_tetra_opt /1 - S2_opt /1 - S2_opt /1 -32.73
+25.0 + S3_opt /1 - S3_chain_opt /1 8.34
+25.0 + S5_opt /1 - S2_opt /1 - S2_opt /1 - S2_opt /2 -75.76
+# Restraint S-S_bond dissociation in S=S
+2.5 + S2_opt /1 - S2_1_63 /1 -48.29
+0.5 + S2_opt /1 - S2_1_83 /1 -3.64
+0.5 + S2_opt /1 - S2_opt /1 0.01
+2.5 + S2_opt /1 - S2_2_03 /1 -2.77
+7.5 + S2_opt /1 - S2_2_23 /1 -18.22
+7.5 + S2_opt /1 - S2_2_43 /1 -38.65
+0.5 + S2_opt /1 - S2_5_93 /1 -112.93
+# MoS2_correction
+2.50 + MoS2_hex_opt_large /1 - MoS2_NPT /1 -25.00
+5.00 + MoS2_hex_opt_large /1 - MoS2_amorph /1 -100.00
+#amorphization_correction
+0.5 + Amorphous_phase /36 - 2H_phase /36 25.00
+1.0 + Amorphous_phase /36 - 1T_phase /36 20.00
+0.50 + 1T_phase /36 - 2H_phase /36 18.70
+# General bilayer_spacing
+0.5 - bilayer_0 /1 + bilayer_p25 /1 02.03
+0.5 - bilayer_0 /1 + bilayer_p20 /1 01.71
+0.30 - bilayer_0 /1 + bilayer_p15 /1 01.31
+0.2 - bilayer_0 /1 + bilayer_p10 /1 00.83
+0.1 - bilayer_0 /1 + bilayer_p5 /1 00.32
+0.05 - bilayer_0 /1 + bilayer_p2 /1 00.07
+0.05 - bilayer_0 /1 + bilayer_m2 /1 00.09
+0.05 - bilayer_0 /1 + bilayer_m5 /1 00.66
+0.2 - bilayer_0 /1 + bilayer_m10 /1 3.36
+1.0 - bilayer_0 /1 + bilayer_m15 /1 9.71
+2.0 - bilayer_0 /1 + bilayer_m20 /1 22.99
+5.0 - bilayer_0 /1 + bilayer_m25 /1 47.99
+# Volume monolayer
+10.0 - monolayer_0 /1 + monolayer_p25 /1 85.4
+8.0 - monolayer_0 /1 + monolayer_p20 /1 60.6
+4.0 - monolayer_0 /1 + monolayer_p15 /1 37.58
+1.0 - monolayer_0 /1 + monolayer_p10 /1 18.40
+0.5 - monolayer_0 /1 + monolayer_p5 /1 4.84
+0.2 - monolayer_0 /1 + monolayer_p2 /1 0.76
+0.1 - monolayer_0 /1 + monolayer_0 /1 0.01
+0.2 - monolayer_0 /1 + monolayer_m2 /1 0.90
+1.0 - monolayer_0 /1 + monolayer_m5 /1 5.7
+5.0 - monolayer_0 /1 + monolayer_m10 /1 24.6
+10.0 - monolayer_0 /1 + monolayer_m15 /1 61.6
+25.0 - monolayer_0 /1 + monolayer_m20 /1 112.4
+50.0 - monolayer_0 /1 + monolayer_m25 /1 174.2
+# defect_vs_pristine
+5.0 - 5x5_defect /1 + 5x5_pristine /1 -158.8
+# General pristine_bend
+2.0 - pristine_0 /1 + pristine_10_1 /1 36.25
+1.0 - pristine_10_1 /1 + pristine_23_1 /1 55.09
+1.0 - pristine_23_1 /1 + pristine_30_1 /1 31.37
+1.0 - pristine_30_1 /1 + pristine_37_1 /1 26.51
+# General vacancy_bend
+2.0 - 2vacancy_0 /1 + bend_10_2 /1 -27.44
+2.0 - bend_10_2 /1 + bend_23_2 /1 14.76
+2.0 - bend_23_2 /1 + bend_30_2 /1 15.54
+2.0 - bend_30_2 /1 + bend_37_2 /1 15.22
+# General swap_mismatch
+50.0 - mismatch_0 /1 + bend_10_3 /1 5.00
+2.0 - bend_10_3 /1 + bend_23_3 /1 2.77
+2.0 - bend_23_3 /1 + bend_30_3 /1 -4.38
+2.0 - bend_30_3 /1 + bend_37_3 /1 2.306
+# General pristine_vs_mismatch
+10.0 - pristine_0 /1 + bend_0_3 /1 90.0
+2.0 - pristine_10_1 /1 + bend_10_3 /1 69.6
+2.0 - pristine_23_1 /1 + bend_23_3 /1 9.91
+2.0 - pristine_30_1 /1 + bend_30_3 /1 -21.4
+2.0 - pristine_37_1 /1 + bend_37_3 /1 -45.7
+# General Defects Zhou et al. NanoLetters 2013
+2.5 - Pristine /1 + V_MoS6 /1 + Mo_bcc/2 + a16_opt/32 +a16_opt/64 392.0
+2.5 - Pristine /1 + S2_Mo /1 + Mo_bcc/2 - a16_opt/64 138.0
+2.5 - Pristine /1 + V_MoS3_II /1 + Mo_bcc/2 + a16_opt/64 +a16_opt/128 184.0
+2.5 - Pristine /1 + Vs /1 + a16_opt/128 69.0
+2.5 - Pristine /1 + Vs2 /1 + a16_opt/64 138.0
+ENDENERGY
