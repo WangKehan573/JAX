@@ -1,0 +1,41 @@
+
+variable xstress equal (c_xalls)/(v_toval*10000)*1.01325
+compute yalls all reduce sum c_1[2]
+variable ystress equal (c_yalls)/(v_toval*10000)*1.01325
+compute zalls all reduce sum c_1[3]
+variable zstress equal (c_zalls)/(v_toval*10000)*1.01325
+
+#7---------relaxation-------------------------
+timestep ${tstep}
+velocity all create ${temperature} 231743 units box dist gaussian
+dump   1 all atom 100 all-cy.lammpstrj
+fix    1 all npt temp 300 300  25 iso 0 0 250   #三个方向独立控压
+compute  2 all pe/atom     
+compute  pe all reduce sum c_2
+variable PE equal "c_pe"
+fix    pe all print 100 "${PE} " file PE.txt screen no
+thermo  ${thermalstep}
+#thermo_style  custom step pe ke etotal lx ly lz
+run   ${relaxtime}
+#8 -------tension-----------------------------
+reset_timestep 0
+unfix  1
+#undump  1
+unfix  pe
+fix avestress all ave/atom 1 ${dumpstep} ${dumpstep} c_1[1] c_1[2] c_1[3] c_1[4] c_1[5] c_1[6]
+
+#-----calculation of strain and Cumulative compression--------
+variable                tmp equal "lx"
+variable                L0 equal ${tmp}
+variable                strain equal "(lx - v_L0)/v_L0"
+variable                Cumulativels equal "(lx - v_L0)/10"  
+fix Step all print 100 "${strain} ${Cumulativels} ${xstress}" file grapoten.txt screen no
+
+dump 2 all custom ${dumpstep} tension.xyz type x y z f_avestress[1] f_avestress[2] f_avestress[3] f_avestress[4] f_avestress[5] f_avestress[6]
+
+fix  1 all npt temp ${temperature} ${temperature} 100 y ${pressure} ${pressure} 1000 z ${pressure} ${pressure} 1000
+
+thermo_style custom step pe ke etotal lx ly lz  temp
+fix   2 all deform 100 x erate ${deformrate} remap x units box 
+fix   3 all ave/time 2 500 1000 v_xstress v_ystress v_zstress file pressure.out
+run   ${totaltime}
